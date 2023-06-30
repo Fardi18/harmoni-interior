@@ -11,12 +11,12 @@ const Hero = () => {
             <h6 className="text-white">Halo, selamat datang di</h6>
             <h1 className="text-white">Harmoni Interior</h1>
             <p className="text-white text-opacity-75">
-              Kami merupakan distributor resmi plafon PVC yang memberikan plafon
-              PVC Kualitas terbaik dengan harga yang kompetitif. Cocok
-              diaplikasikan untuk segala jenis bangunan seperti rumah, kantor,
-              hotel, cafe resto, aula, rumah ibadah, dll.
+              Distributor resmi plafon PVC yang memberikan plafon PVC Kualitas
+              terbaik dengan harga yang kompetitif. Cocok diaplikasikan untuk
+              segala jenis bangunan seperti rumah, kantor, hotel, cafe resto,
+              aula, rumah ibadah, dll.
             </p>
-            <Link to={"/"} className="button">
+            <Link to={"/produk"} className="button">
               Lihat Katalog
             </Link>
           </div>

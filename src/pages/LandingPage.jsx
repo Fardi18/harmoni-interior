@@ -86,7 +86,7 @@ const LandingPage = () => {
               rayap, tidak merambat api, mudah dibersihkan dan gampang dalam
               pemasangan dan perawatannya
             </p>
-            <Link to={"/"} className="button">
+            <Link to="/produk/plafonpvc" className="button">
               Lihat Daftar Produk
             </Link>
           </div>

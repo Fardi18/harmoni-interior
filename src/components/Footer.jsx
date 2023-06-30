@@ -21,7 +21,7 @@ const Footer = () => {
             <Link to={"/"} className="text-white-50 mt-2">
               Home
             </Link>
-            <Link to={"/jenis"} className="text-white-50 mt-2">
+            <Link to={"/produk"} className="text-white-50 mt-2">
               Jenis Produk
             </Link>
             <Link to={"/harga"} className="text-white-50 mt-2">

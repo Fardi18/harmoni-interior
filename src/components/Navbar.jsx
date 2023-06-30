@@ -50,7 +50,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link active mx-1" to={"/jenis"}>
+              <Link className="nav-link active mx-1" to={"/produk"}>
                 Jenis Produk
               </Link>
             </li>
