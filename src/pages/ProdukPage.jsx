@@ -14,114 +14,122 @@ const ProdukPage = () => {
             <h2 className="text-center">Daftar Produk di Harmoni Interior</h2>
           </div>
         </div>
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-          <div class="col">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Plafon PVC</h5>
-                <p class="card-text">
-                Plafon dibuat dari bahan PVC berkualitas tinggi, tahan air, anti rayap, tidak merambat api,
-                mudah dibersihkan dan gampang dalam pemasangan dan perawatannya.
+        <div className="row row-cols-1 row-cols-md-2 g-4">
+          <div className="col">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">Plafon PVC</h5>
+                <p className="card-text">
+                  Plafon dibuat dari bahan PVC berkualitas tinggi, tahan air,
+                  anti rayap, tidak merambat api, mudah dibersihkan dan gampang
+                  dalam pemasangan dan perawatannya.
                 </p>
-                <Link to="/produk/plafonpvc" class="card-link">
+                <Link to="/produk/plafonpvc" className="card-link">
                   Lihat Produk
                 </Link>
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">WPC</h5>
-                <p class="card-text">
-                Wpc dibuat dari bahan berkualitas tinggi, tahan air, anti rayap, tidak merambat api, 
-                mudah dibersihkan dan gampang dalam pemasangan dan perawatannya.
+          <div className="col">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">WPC</h5>
+                <p className="card-text">
+                  Wpc dibuat dari bahan berkualitas tinggi, tahan air, anti
+                  rayap, tidak merambat api, mudah dibersihkan dan gampang dalam
+                  pemasangan dan perawatannya.
                 </p>
-                <Link to="/produk/plafonWPC" class="card-link">
+                <Link to="/produk/plafonWPC" className="card-link">
                   Lihat Produk
                 </Link>
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">List Plafon</h5>
-                <p class="card-text">
-                  List Plafon dibuat dari bahan berkualitas tinggi, tahan air, anti rayap, tidak merambat api,
-                  mudah dibersihkan dan gampang dalam pemasangan dan perawatannya.
+          <div className="col">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">List Plafon</h5>
+                <p className="card-text">
+                  List Plafon dibuat dari bahan berkualitas tinggi, tahan air,
+                  anti rayap, tidak merambat api, mudah dibersihkan dan gampang
+                  dalam pemasangan dan perawatannya.
                 </p>
-                <Link to="/produk/ListPlafon" class="card-link">
+                <Link to="/produk/ListPlafon" className="card-link">
                   Lihat Produk
                 </Link>
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Lantai Vinyl</h5>
-                <p class="card-text">
-                Lantai Vinyl dibuat dari bahan berkualitas tinggi, tahan air, anti rayap, tidak merambat api,
-                mudah dibersihkan dan gampang dalam pemasangan dan perawatannya.
+          <div className="col">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">Lantai Vinyl</h5>
+                <p className="card-text">
+                  Lantai Vinyl dibuat dari bahan berkualitas tinggi, tahan air,
+                  anti rayap, tidak merambat api, mudah dibersihkan dan gampang
+                  dalam pemasangan dan perawatannya.
                 </p>
-                <Link to="/produk/LantaiVinyl" class="card-link">
+                <Link to="/produk/LantaiVinyl" className="card-link">
                   Lihat Produk
                 </Link>
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Marmer PVC</h5>
-                <p class="card-text">
-                Marmer PVC terbuat dari bahan berkualitas tinggi, tahan air, anti rayap, tidak merambat api,
-                mudah dibersihkan dan gampang dalam pemasangan dan perawatannya.
+          <div className="col">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">Marmer PVC</h5>
+                <p className="card-text">
+                  Marmer PVC terbuat dari bahan berkualitas tinggi, tahan air,
+                  anti rayap, tidak merambat api, mudah dibersihkan dan gampang
+                  dalam pemasangan dan perawatannya.
                 </p>
-                <Link to="/produk/MarmerPVC" class="card-link">
+                <Link to="/produk/MarmerPVC" className="card-link">
                   Lihat Produk
                 </Link>
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Wallfoam</h5>
-                <p class="card-text">
-                Wallfoam dibuat dari bahan berkualitas tinggi, tahan air, anti rayap, tidak merambat api,
-                mudah dibersihkan dan gampang dalam pemasangan dan perawatannya.
+          <div className="col">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">Wallfoam</h5>
+                <p className="card-text">
+                  Wallfoam dibuat dari bahan berkualitas tinggi, tahan air, anti
+                  rayap, tidak merambat api, mudah dibersihkan dan gampang dalam
+                  pemasangan dan perawatannya.
                 </p>
-                <Link to="/produk/Wallfoam" class="card-link">
+                <Link to="/produk/Wallfoam" className="card-link">
                   Lihat Produk
                 </Link>
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Wallpaper</h5>
-                <p class="card-text">
-                Wallpaper dibuat dari bahan berkualitas tinggi, tahan air, anti rayap, tidak merambat api,
-                mudah dibersihkan dan gampang dalam pemasangan dan perawatannya.
+          <div className="col">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">Wallpaper</h5>
+                <p className="card-text">
+                  Wallpaper dibuat dari bahan berkualitas tinggi, tahan air,
+                  anti rayap, tidak merambat api, mudah dibersihkan dan gampang
+                  dalam pemasangan dan perawatannya.
                 </p>
-                <Link to="/produk/Wallpaper" class="card-link">
+                <Link to="/produk/Wallpaper" className="card-link">
                   Lihat Produk
                 </Link>
               </div>
             </div>
-            </div>
-          <div class="col">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Edging</h5>
-                <p class="card-text">
-                  Edging dibuat dari bahan berkualitas tinggi, tahan air, anti rayap, tidak merambat api,
-                  mudah dibersihkan dan gampang dalam pemasangan dan perawatannya.
+          </div>
+          <div className="col">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">Edging</h5>
+                <p className="card-text">
+                  Edging dibuat dari bahan berkualitas tinggi, tahan air, anti
+                  rayap, tidak merambat api, mudah dibersihkan dan gampang dalam
+                  pemasangan dan perawatannya.
                 </p>
-                <Link to="/produk/Edging" class="card-link">
+                <Link to="/produk/Edging" className="card-link">
                   Lihat Produk
                 </Link>
               </div>

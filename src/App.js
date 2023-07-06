@@ -12,6 +12,7 @@ import WallpaperPage from "./pages/WallpaperPage";
 import EdgingPage from "./pages/EdgingPage";
 import ProdukPage from "./pages/ProdukPage";
 import PricePage from "./pages/PricePage";
+import HubungiPage from "./pages/HubungiPage";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/produk" element={<ProdukPage />} />
+        <Route path="/hubungi" element={<HubungiPage />} />
         <Route path="/harga" element={<PricePage />} />
         <Route path="/produk/plafonpvc" element={<PlafonPVCPage />} />
         <Route path="/produk/plafonWPC" element={<PlafonWPCPage />} />

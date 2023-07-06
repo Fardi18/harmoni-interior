@@ -1,6 +1,7 @@
 import "./Components.css";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
+import ReactWhatsapp from "react-whatsapp";
 
 const Footer = () => {
   return (
@@ -34,27 +35,45 @@ const Footer = () => {
           <div className="col col-lg-2 d-flex flex-column mb-lg-0 mb-4">
             <h5 className="fw-bold text-white mb-5 pt-4">Contact</h5>
             <Link href="#" className="text-white-50 mt-2">
-              Marketing 1
+              <ReactWhatsapp
+                className="btn text-white-50 mt-2 p-0"
+                number="+6288211148998"
+                message="Saya ingi memesan ..."
+              >
+                Marketing 1
+              </ReactWhatsapp>
             </Link>
             <Link href="#" className="text-white-50 mt-2">
-              Marketing 2
+              <ReactWhatsapp
+                className="btn text-white-50 mt-2 p-0"
+                number="+6283827637634"
+                message="Saya ingi memesan ..."
+              >
+                Marketing 2
+              </ReactWhatsapp>
             </Link>
             <Link href="#" className="text-white-50 mt-2">
-              Marketing 3
+              <ReactWhatsapp
+                className="btn text-white-50 mt-2 p-0"
+                number="+62895324122257"
+                message="Saya ingi memesan ..."
+              >
+                Marketing 3
+              </ReactWhatsapp>
             </Link>
-            <Link href="#" className="text-white-50 mt-2">
-              Marketing 4
-            </Link>
-            <Link href="#" className="text-white-50 mt-2">
-             harmoniinterior.id@gmail.com
+            <Link href="#" className="text-white-50 mt-4">
+              harmoniinterior.id@gmail.com
             </Link>
           </div>
           <div className="col col-lg-3 d-flex flex-column mb-lg-0 mb-4">
             <h5 className="fw-bold text-white mb-5 pt-4">Lokasi</h5>
-            <p className="text-white-50 mt-2">
+            <Link
+              to="https://goo.gl/maps/GdLvd5DaTbzD67dt6"
+              className="text-white-50 mt-2"
+            >
               Jl. Raya Serang Km.13,8 Kawasan Industri Tristate Cikupa Tangerang
               Banten
-            </p>
+            </Link>
             <h5 className="fw-bold text-white mb-3 pt-4">Jam Operasional</h5>
             <p className="text-white-50 mt-2">
               Senin - Sabtu, 08.00 - 17.00 WIB

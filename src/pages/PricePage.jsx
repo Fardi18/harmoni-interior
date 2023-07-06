@@ -4,6 +4,7 @@ import Intro from "../components/Intro";
 import Footer from "../components/Footer";
 import iconBuletCoksu from "../assets/icon-bulat-coksu.jpg";
 import iconBuletPutih from "../assets/icon-bulat-putih.png";
+import { Link } from "react-router-dom";
 
 const PricePage = () => {
   return (
@@ -47,8 +48,10 @@ const PricePage = () => {
                   <p>Ringan</p>
                 </div>
               </div>
-              <div className="pemesanan">
-                <h6 className="text-center">Pemesanan</h6>
+              <div className="pemesanan text-center">
+                <Link to={"/hubungi"} className="text-center ">
+                  Pemesanan
+                </Link>
               </div>
             </div>
           </div>
@@ -81,8 +84,10 @@ const PricePage = () => {
                   <p>Ramah Lingkungan</p>
                 </div>
               </div>
-              <div className="pemesanan">
-                <h6 className="text-center">Pemesanan</h6>
+              <div className="pemesanan text-center">
+                <Link to={"/hubungi"} className="text-center ">
+                  Pemesanan
+                </Link>
               </div>
             </div>
           </div>
@@ -115,8 +120,10 @@ const PricePage = () => {
                   <p>Berbagai Pilihan Bentuk</p>
                 </div>
               </div>
-              <div className="pemesanan">
-                <h6 className="text-center">Pemesanan</h6>
+              <div className="pemesanan text-center">
+                <Link to={"/hubungi"} className="text-center ">
+                  Pemesanan
+                </Link>
               </div>
             </div>
           </div>
@@ -149,8 +156,10 @@ const PricePage = () => {
                   <p>Tekstur Yang Nyaman</p>
                 </div>
               </div>
-              <div className="pemesanan">
-                <h6 className="text-center">Pemesanan</h6>
+              <div className="pemesanan text-center">
+                <Link to={"/hubungi"} className="text-center ">
+                  Pemesanan
+                </Link>
               </div>
             </div>
           </div>
@@ -183,8 +192,10 @@ const PricePage = () => {
                   <p>Tampilan Elegan & Astetic</p>
                 </div>
               </div>
-              <div className="pemesanan">
-                <h6 className="text-center">Pemesanan</h6>
+              <div className="pemesanan text-center">
+                <Link to={"/hubungi"} className="text-center ">
+                  Pemesanan
+                </Link>
               </div>
             </div>
           </div>
@@ -217,8 +228,10 @@ const PricePage = () => {
                   <p>Mampu Menyekat Suara</p>
                 </div>
               </div>
-              <div className="pemesanan">
-                <h6 className="text-center">Pemesanan</h6>
+              <div className="pemesanan text-center">
+                <Link to={"/hubungi"} className="text-center ">
+                  Pemesanan
+                </Link>
               </div>
             </div>
           </div>
@@ -244,15 +257,17 @@ const PricePage = () => {
                 </div>
                 <div className="d-flex align-items-center benefits-list">
                   <img src={iconBuletCoksu} alt="" />
-                  <p>Memberikesan Astetik  </p>
+                  <p>Memberikesan Astetik </p>
                 </div>
                 <div className="d-flex align-items-center">
                   <img src={iconBuletCoksu} alt="" />
                   <p>Menutupi Cat Yang Rusak</p>
                 </div>
               </div>
-              <div className="pemesanan">
-                <h6 className="text-center">Pemesanan</h6>
+              <div className="pemesanan text-center">
+                <Link to={"/hubungi"} className="text-center ">
+                  Pemesanan
+                </Link>
               </div>
             </div>
           </div>
@@ -285,8 +300,10 @@ const PricePage = () => {
                   <p>Melindungi Tepi Meja, Dll</p>
                 </div>
               </div>
-              <div className="pemesanan">
-                <h6 className="text-center">Pemesanan</h6>
+              <div className="pemesanan text-center">
+                <Link to={"/hubungi"} className="text-center ">
+                  Pemesanan
+                </Link>
               </div>
             </div>
           </div>

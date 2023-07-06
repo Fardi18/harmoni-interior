@@ -80,6 +80,17 @@
   color: white;
 }
 
+.katalog .list-katalog .button:hover {
+  display: inline-flex;
+  font-weight: 600;
+  padding: 12px 32px;
+  text-decoration: none;
+  border-radius: 8px;
+  color: #bf9e6d;
+  background-color: white;
+  border: 2px solid #bf9e6d;
+}
+
 /* <===== PRODUK PAGE =====> */
 /* PRODUKPAGE */
 .product {
@@ -217,7 +228,7 @@
   color: #bf9e6d;
 }
 
-.harga .list-harga-putih .pemesanan h6 {
+.harga .list-harga-putih .pemesanan a {
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -227,6 +238,19 @@
   padding: 10px 32px;
   border-radius: 8px;
   background-color: #bf9e6d;
+}
+
+.harga .list-harga-putih .pemesanan a:hover {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  background-color: white;
+  padding: 10px 32px;
+  border-radius: 8px;
+  color: #bf9e6d;
+  border: 2px solid #bf9e6d;
 }
 
 .harga .list-harga-coksu {
@@ -288,7 +312,7 @@
   color: #bf9e6d;
 }
 
-.harga .list-harga-coksu .pemesanan h6 {
+.harga .list-harga-coksu .pemesanan a {
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -298,4 +322,46 @@
   padding: 10px 32px;
   border-radius: 8px;
   color: #bf9e6d;
+}
+
+.harga .list-harga-coksu .pemesanan a:hover {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: white;
+  padding: 10px 32px;
+  border-radius: 8px;
+  background-color: #bf9e6d;
+  border: 2px solid #fff;
+}
+
+/* ===== HUBUNGI KAMI PAGE ====== */
+.hubungi-kami {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.hubungi-kami h1 {
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.54px;
+  margin-bottom: 120px;
+}
+
+.hubungi-kami .btn-hubungi {
+  border-radius: 8px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #cbbba4;
+}
+
+.phone button span {
+  width: 1.8em;
+  height: 1.8em;
 }
