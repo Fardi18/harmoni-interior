@@ -3,13 +3,13 @@ import "./Pages.css";
 import Navbar from "../components/Navbar";
 import Intro from "../components/Intro";
 import Footer from "../components/Footer";
-import ProductPlafonPVC from "../components/ProductPlafonPVC";
+import ProductLantaiVinyl from "../components/ProductLantaiVinyl";
 
-const PlafonPVCPage = () => {
+const LantaiVinylPage = () => {
   // download function
   const handleDownload = () => {
     const fileUrl =
-      "https://drive.google.com/drive/folders/1uVTOYTISEvaNAvMIcywNFwM0AVGDU-QL?usp=sharing";
+      "https://drive.google.com/file/d/1KkXU2_ydtP7ZtsuMng-AVHuxWt1iq6LE/view?usp=sharing";
     const fileName = "harmoni-interior-plafon-pvc.pdf";
     const link = document.createElement("a");
     link.href = fileUrl;
@@ -19,35 +19,35 @@ const PlafonPVCPage = () => {
   return (
     <>
       <Navbar />
-      <Intro heading={"Plafon PVC"} />
+      <Intro heading={"Lantai Vinyl"} />
       <div className="container description">
         <div className="row description-product">
           <div className="col col-lg-8">
-            <h2>Plafon Harmoni Interior</h2>
+            <h2>Lantai Vinyl Harmoni Interior</h2>
             <p>
-              Plafon PVC memiliki banyak sekali keunggulan seperti tahan api,
+              Lantai Vinyl memiliki banyak sekali keunggulan seperti tahan api,
               dapat meredam panas, anti rayap dan anti bocor dan yang paling
               penting adalah harga yang terjangkau dan ekonomis tetapi memiliki
               kualitas yang baik. Berikut adalah daftar{" "}
-              <b>Plafon PVC Harmoni Interior</b>
+              <b>Lantai Vinyl Harmoni Interior</b>
             </p>
           </div>
         </div>
         <div className="row list-product">
           <div className="col a">
-            <ProductPlafonPVC />
+            <ProductLantaiVinyl />
           </div>
         </div>
         <div className="row download">
           <div className="col">
             <p className="text-center">
               Untuk melihat lebih lanjut tentang produk{" "}
-              <strong>Plafon PVC Harmoni Interior</strong> <br />
+              <strong>Lantai Vinyl Harmoni Interior</strong> <br />
               silahkan download file dibawah ini:
             </p>
             <div className="d-flex justify-content-center align-items-center">
               <button onClick={handleDownload} className="btnDwonload">
-                Katalog Plafon PVC
+                Katalog Lantai Vinyl
               </button>
             </div>
           </div>
@@ -59,4 +59,4 @@ const PlafonPVCPage = () => {
   );
 };
 
-export default PlafonPVCPage;
+export default LantaiVinylPage;

@@ -7,7 +7,15 @@ import Footer from "../components/Footer";
 import iconImage from "../assets/icon-image.jpg";
 import iconTime from "../assets/icon-time.jpg";
 import iconShield from "../assets/icon-shield.jpg";
-import imgPlafon from "../assets/plafon.jpg";
+import imgPlafonPvc from "../assets/plafonpvc.jpeg";
+import imgWpc from "../assets/wpc.jpeg";
+import imgListPlafon from "../assets/listplafon.jpeg";
+import imgLantai from "../assets/lantaivnyl.jpg";
+import imgMarmer from "../assets/marmer.jpeg";
+import imgWallfoam from "../assets/wallfoam.jpeg";
+import imgWallpaper from "../assets/wallpaper.jpeg";
+import imgEdging from "../assets/edging.jpg";
+
 
 const LandingPage = () => {
   return (
@@ -43,17 +51,16 @@ const LandingPage = () => {
               <h5>Kemudahan Pemasangan</h5>
               <p>
                 Dilengkapi dengan sistem penguncian atau perekat khusus yang
-                memungkinkan Anda memasangnya dengan cepat dan mudah tanpa perlu
-                keterampilan khusus. Ini menghemat waktu dan biaya instalasi,
-                sehingga menjadi pilihan yang praktis untuk meningkatkan
-                interior ruangan.
+                memungkinkan anda untuk memasangnya dengan cepat dan mudah tanpa perlu
+                keterampilan khusus. Dan keunggulan Ini menghemat waktu dan biaya instalasi,
+                sehingga menjadi pilihan yang praktis untuk meningkatkan keindahan interior ruangan.
               </p>
             </div>
           </div>
           <div className="col">
             <div className="list-keunggulan text-center">
               <img src={iconShield} alt="" />
-              <h5>Daya Tahan & Perawatan Mudah</h5>
+              <h5>Daya Tahan & Perawatan</h5>
               <p>
                 WPC terbuat dari campuran serat kayu dan plastik, sehingga tahan
                 terhadap kerusakan, perubahan suhu, dan kelembaban. Panel
@@ -77,14 +84,14 @@ const LandingPage = () => {
         </div>
         <div className="list-katalog row gx-lg-5 d-flex align-items-center">
           <div className="col-lg-6 mb-3">
-            <img src={imgPlafon} alt="" className="img-fluid" />
+            <img src={imgPlafonPvc} alt="" className="img-fluid" />
           </div>
           <div className="col-lg-6">
             <h5>Plafon PVC</h5>
             <p>
               Plafon dibuat dari bahan PVC berkualitas tinggi, tahan air, anti
               rayap, tidak merambat api, mudah dibersihkan dan gampang dalam
-              pemasangan dan perawatannya
+              pemasangan dan perawatannya.
             </p>
             <Link to="/produk/plafonpvc" className="button">
               Lihat Daftar Produk
@@ -93,96 +100,112 @@ const LandingPage = () => {
         </div>
         <div className="list-katalog row gx-lg-5 d-flex align-items-center">
           <div className="col-lg-6 mb-3">
-            <img src={imgPlafon} alt="" className="img-fluid" />
+            <img src={imgWpc} alt="" className="img-fluid" />
           </div>
           <div className="col-lg-6">
             <h5>WPC</h5>
             <p>
-              Plafon dibuat dari bahan PVC berkualitas tinggi, tahan air, anti
+              Wpc dibuat dari bahan berkualitas tinggi, tahan air, anti
               rayap, tidak merambat api, mudah dibersihkan dan gampang dalam
-              pemasangan dan perawatannya
+              pemasangan dan perawatannya.
             </p>
-            <Link to={"/"} className="button">
+            <Link to={"/produk/plafonWPC"} className="button">
               Lihat Daftar Produk
             </Link>
           </div>
         </div>
         <div className="list-katalog row gx-lg-5 d-flex align-items-center">
           <div className="col-lg-6 mb-3">
-            <img src={imgPlafon} alt="" className="img-fluid" />
+            <img src={imgListPlafon} alt="" className="img-fluid" />
           </div>
           <div className="col-lg-6">
-            <h5>Lis Plafon</h5>
+            <h5>List Plafon</h5>
             <p>
-              Plafon dibuat dari bahan PVC berkualitas tinggi, tahan air, anti
+              List Plafon dibuat dari bahan berkualitas tinggi, tahan air, anti
               rayap, tidak merambat api, mudah dibersihkan dan gampang dalam
-              pemasangan dan perawatannya
+              pemasangan dan perawatannya.
             </p>
-            <Link to={"/"} className="button">
+            <Link to={"/produk/ListPlafon"} className="button">
               Lihat Daftar Produk
             </Link>
           </div>
         </div>
         <div className="list-katalog row gx-lg-5 d-flex align-items-center">
           <div className="col-lg-6 mb-3">
-            <img src={imgPlafon} alt="" className="img-fluid" />
+            <img src={imgLantai} alt="" className="img-fluid" />
           </div>
           <div className="col-lg-6">
             <h5>Lantai Vinyl</h5>
             <p>
-              Plafon dibuat dari bahan PVC berkualitas tinggi, tahan air, anti
+              Lantai Vinyl dibuat dari bahan berkualitas tinggi, tahan air, anti
               rayap, tidak merambat api, mudah dibersihkan dan gampang dalam
-              pemasangan dan perawatannya
+              pemasangan dan perawatannya.
             </p>
-            <Link to={"/"} className="button">
+            <Link to={"/produk/LantaiVinyl"} className="button">
               Lihat Daftar Produk
             </Link>
           </div>
         </div>
         <div className="list-katalog row gx-lg-5 d-flex align-items-center">
           <div className="col-lg-6 mb-3">
-            <img src={imgPlafon} alt="" className="img-fluid" />
+            <img src={imgMarmer} alt="" className="img-fluid" />
           </div>
           <div className="col-lg-6">
             <h5>Marmer PVC</h5>
             <p>
-              Plafon dibuat dari bahan PVC berkualitas tinggi, tahan air, anti
+              Marmer PVC terbuat dari bahan berkualitas tinggi, tahan air, anti
               rayap, tidak merambat api, mudah dibersihkan dan gampang dalam
-              pemasangan dan perawatannya
+              pemasangan dan perawatannya.
             </p>
-            <Link to={"/"} className="button">
+            <Link to={"/produk/MarmerPVC"} className="button">
               Lihat Daftar Produk
             </Link>
           </div>
         </div>
         <div className="list-katalog row gx-lg-5 d-flex align-items-center">
           <div className="col-lg-6 mb-3">
-            <img src={imgPlafon} alt="" className="img-fluid" />
+            <img src={imgWallfoam} alt="" className="img-fluid" />
           </div>
           <div className="col-lg-6">
             <h5>Wallfoam</h5>
             <p>
-              Plafon dibuat dari bahan PVC berkualitas tinggi, tahan air, anti
+              Wallfoam dibuat dari bahan berkualitas tinggi, tahan air, anti
               rayap, tidak merambat api, mudah dibersihkan dan gampang dalam
-              pemasangan dan perawatannya
+              pemasangan dan perawatannya.
             </p>
-            <Link to={"/"} className="button">
+            <Link to={"/produk/Wallfoam"} className="button">
               Lihat Daftar Produk
             </Link>
           </div>
         </div>
         <div className="list-katalog row gx-lg-5 d-flex align-items-center">
           <div className="col-lg-6 mb-3">
-            <img src={imgPlafon} alt="" className="img-fluid" />
+            <img src={imgWallpaper} alt="" className="img-fluid" />
           </div>
           <div className="col-lg-6">
             <h5>Wallpaper</h5>
             <p>
-              Plafon dibuat dari bahan PVC berkualitas tinggi, tahan air, anti
+              Wallpaper dibuat dari bahan berkualitas tinggi, tahan air, anti
               rayap, tidak merambat api, mudah dibersihkan dan gampang dalam
-              pemasangan dan perawatannya
+              pemasangan dan perawatannya.
             </p>
-            <Link to={"/"} className="button">
+            <Link to={"/produk/Wallpaper"} className="button">
+              Lihat Daftar Produk
+            </Link>
+          </div>
+        </div>
+        <div className="list-katalog row gx-lg-5 d-flex align-items-center">
+          <div className="col-lg-6 mb-3">
+            <img src={imgEdging} alt="" className="img-fluid" />
+          </div>
+          <div className="col-lg-6">
+            <h5>Edging</h5>
+            <p>
+              Edging dibuat dari bahan berkualitas tinggi, tahan air, anti
+              rayap, tidak merambat api, mudah dibersihkan dan gampang dalam
+              pemasangan dan perawatannya.
+            </p>
+            <Link to="/produk/Edging" className="button">
               Lihat Daftar Produk
             </Link>
           </div>

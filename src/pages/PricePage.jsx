@@ -23,32 +23,29 @@ const PricePage = () => {
             <div className="list-harga-putih">
               <div className="text-center nama">
                 <h3>Plafon PVC</h3>
-                <p>Polivinil Clorida</p>
+                <p>Harmoni Interior</p>
               </div>
               <div className="benefits">
                 <div className="d-flex align-items-center benefits-list">
                   <img src={iconBuletCoksu} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Tahan Lama</p>
                 </div>
                 <div className="d-flex align-items-center benefits-list">
                   <img src={iconBuletCoksu} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Tahan Air & Kelembaban</p>
                 </div>
                 <div className="d-flex align-items-center benefits-list">
                   <img src={iconBuletCoksu} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Mudah di pasang</p>
                 </div>
                 <div className="d-flex align-items-center benefits-list">
                   <img src={iconBuletCoksu} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Banyak pilihan motif</p>
                 </div>
                 <div className="d-flex align-items-center">
                   <img src={iconBuletCoksu} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Ringan</p>
                 </div>
-              </div>
-              <div className="total">
-                <h6 className="text-center">Rp50.000/meter</h6>
               </div>
               <div className="pemesanan">
                 <h6 className="text-center">Pemesanan</h6>
@@ -59,45 +56,30 @@ const PricePage = () => {
           <div className="col">
             <div className="list-harga-coksu">
               <div className="text-center text-white nama">
-                <h3>Plafon PVC</h3>
-                <p>Polivinil Clorida</p>
+                <h3>WPC</h3>
+                <p>Harmoni Interior</p>
               </div>
               <div className="benefits text-white">
                 <div className="d-flex align-items-center benefits-list">
                   <img src={iconBuletPutih} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Tahan Lama</p>
                 </div>
                 <div className="d-flex align-items-center benefits-list">
                   <img src={iconBuletPutih} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Anti Rayap</p>
                 </div>
                 <div className="d-flex align-items-center benefits-list">
                   <img src={iconBuletPutih} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Tampilan Kayu Alami</p>
                 </div>
                 <div className="d-flex align-items-center benefits-list">
                   <img src={iconBuletPutih} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Mudah Untuk Perawatan</p>
                 </div>
                 <div className="d-flex align-items-center benefits-list">
                   <img src={iconBuletPutih} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Ramah Lingkungan</p>
                 </div>
-                <div className="d-flex align-items-center benefits-list">
-                  <img src={iconBuletPutih} alt="" />
-                  <p>Tahan Api</p>
-                </div>
-                <div className="d-flex align-items-center benefits-list">
-                  <img src={iconBuletPutih} alt="" />
-                  <p>Tahan Api</p>
-                </div>
-                <div className="d-flex align-items-center">
-                  <img src={iconBuletPutih} alt="" />
-                  <p>Tahan Api</p>
-                </div>
-              </div>
-              <div className="total">
-                <h6 className="text-center text-white">Rp50.000/meter</h6>
               </div>
               <div className="pemesanan">
                 <h6 className="text-center">Pemesanan</h6>
@@ -108,33 +90,30 @@ const PricePage = () => {
           <div className="col">
             <div className="list-harga-putih">
               <div className="text-center nama">
-                <h3>Plafon PVC</h3>
-                <p>Polivinil Clorida</p>
+                <h3>List Plafon</h3>
+                <p>Harmoni Interior</p>
               </div>
               <div className="benefits">
                 <div className="d-flex align-items-center benefits-list">
                   <img src={iconBuletCoksu} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Mudah di pasang</p>
                 </div>
                 <div className="d-flex align-items-center benefits-list">
                   <img src={iconBuletCoksu} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Berbagai Pilihan Motif</p>
                 </div>
                 <div className="d-flex align-items-center benefits-list">
                   <img src={iconBuletCoksu} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Memberi Tampilan Astetis</p>
                 </div>
                 <div className="d-flex align-items-center benefits-list">
                   <img src={iconBuletCoksu} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Bahan Berkuwalitas </p>
                 </div>
                 <div className="d-flex align-items-center">
                   <img src={iconBuletCoksu} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Berbagai Pilihan Bentuk</p>
                 </div>
-              </div>
-              <div className="total">
-                <h6 className="text-center">Rp50.000/meter</h6>
               </div>
               <div className="pemesanan">
                 <h6 className="text-center">Pemesanan</h6>
@@ -145,33 +124,30 @@ const PricePage = () => {
           <div className="col">
             <div className="list-harga-putih">
               <div className="text-center nama">
-                <h3>Plafon PVC</h3>
-                <p>Polivinil Clorida</p>
+                <h3>Lantai Vinyl</h3>
+                <p>Harmoni Interior</p>
               </div>
               <div className="benefits">
                 <div className="d-flex align-items-center benefits-list">
                   <img src={iconBuletCoksu} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Tahan Goresan</p>
                 </div>
                 <div className="d-flex align-items-center benefits-list">
                   <img src={iconBuletCoksu} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Mudah di pasang</p>
                 </div>
                 <div className="d-flex align-items-center benefits-list">
                   <img src={iconBuletCoksu} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Tahan Lama</p>
                 </div>
                 <div className="d-flex align-items-center benefits-list">
                   <img src={iconBuletCoksu} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Berbagai Pilihan Design</p>
                 </div>
                 <div className="d-flex align-items-center">
                   <img src={iconBuletCoksu} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Tekstur Yang Nyaman</p>
                 </div>
-              </div>
-              <div className="total">
-                <h6 className="text-center">Rp50.000/meter</h6>
               </div>
               <div className="pemesanan">
                 <h6 className="text-center">Pemesanan</h6>
@@ -182,33 +158,30 @@ const PricePage = () => {
           <div className="col">
             <div className="list-harga-coksu">
               <div className="text-center text-white nama">
-                <h3>Plafon PVC</h3>
-                <p>Polivinil Clorida</p>
+                <h3>Marmer PVC</h3>
+                <p>Harmoni Interior</p>
               </div>
               <div className="benefits text-white">
                 <div className="d-flex align-items-center benefits-list">
                   <img src={iconBuletPutih} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Tahan Goresan</p>
                 </div>
                 <div className="d-flex align-items-center benefits-list">
                   <img src={iconBuletPutih} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Design Yang Elegan</p>
                 </div>
                 <div className="d-flex align-items-center benefits-list">
                   <img src={iconBuletPutih} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Menambah Nilai Ruangan</p>
                 </div>
                 <div className="d-flex align-items-center benefits-list">
                   <img src={iconBuletPutih} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Mudah di bersihkan</p>
                 </div>
                 <div className="d-flex align-items-center">
                   <img src={iconBuletPutih} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Tampilan Elegan & Astetic</p>
                 </div>
-              </div>
-              <div className="total">
-                <h6 className="text-center text-white">Rp50.000/meter</h6>
               </div>
               <div className="pemesanan">
                 <h6 className="text-center">Pemesanan</h6>
@@ -219,8 +192,8 @@ const PricePage = () => {
           <div className="col">
             <div className="list-harga-putih">
               <div className="text-center nama">
-                <h3>Plafon PVC</h3>
-                <p>Polivinil Clorida</p>
+                <h3>Wallfoam</h3>
+                <p>Harmoni Interior</p>
               </div>
               <div className="benefits">
                 <div className="d-flex align-items-center benefits-list">
@@ -229,23 +202,20 @@ const PricePage = () => {
                 </div>
                 <div className="d-flex align-items-center benefits-list">
                   <img src={iconBuletCoksu} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Berbagai Pilihan Design</p>
                 </div>
                 <div className="d-flex align-items-center benefits-list">
                   <img src={iconBuletCoksu} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Meredamkan Suhu</p>
                 </div>
                 <div className="d-flex align-items-center benefits-list">
                   <img src={iconBuletCoksu} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Mudah Digunakan</p>
                 </div>
                 <div className="d-flex align-items-center">
                   <img src={iconBuletCoksu} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Mampu Menyekat Suara</p>
                 </div>
-              </div>
-              <div className="total">
-                <h6 className="text-center">Rp50.000/meter</h6>
               </div>
               <div className="pemesanan">
                 <h6 className="text-center">Pemesanan</h6>
@@ -256,33 +226,64 @@ const PricePage = () => {
           <div className="col">
             <div className="list-harga-putih">
               <div className="text-center nama">
-                <h3>Plafon PVC</h3>
-                <p>Polivinil Clorida</p>
+                <h3>Wallpaper</h3>
+                <p>Harmoni Interior</p>
               </div>
               <div className="benefits">
                 <div className="d-flex align-items-center benefits-list">
                   <img src={iconBuletCoksu} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Berbagai Pilihan Design</p>
                 </div>
                 <div className="d-flex align-items-center benefits-list">
                   <img src={iconBuletCoksu} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Mudah di pasang</p>
                 </div>
                 <div className="d-flex align-items-center benefits-list">
                   <img src={iconBuletCoksu} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Memperindah Ruangan</p>
                 </div>
                 <div className="d-flex align-items-center benefits-list">
                   <img src={iconBuletCoksu} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Memberikesan Astetik  </p>
                 </div>
                 <div className="d-flex align-items-center">
                   <img src={iconBuletCoksu} alt="" />
-                  <p>Tahan Api</p>
+                  <p>Menutupi Cat Yang Rusak</p>
                 </div>
               </div>
-              <div className="total">
-                <h6 className="text-center">Rp50.000/meter</h6>
+              <div className="pemesanan">
+                <h6 className="text-center">Pemesanan</h6>
+              </div>
+            </div>
+          </div>
+
+          <div className="col">
+            <div className="list-harga-coksu">
+              <div className="text-center text-white nama">
+                <h3>Edging</h3>
+                <p>Harmoni Interior</p>
+              </div>
+              <div className="benefits text-white">
+                <div className="d-flex align-items-center benefits-list">
+                  <img src={iconBuletPutih} alt="" />
+                  <p>Berbagai Macam Bahan</p>
+                </div>
+                <div className="d-flex align-items-center benefits-list">
+                  <img src={iconBuletPutih} alt="" />
+                  <p>Memberikesan Rapih</p>
+                </div>
+                <div className="d-flex align-items-center benefits-list">
+                  <img src={iconBuletPutih} alt="" />
+                  <p>Tahan Gores & Benturan</p>
+                </div>
+                <div className="d-flex align-items-center benefits-list">
+                  <img src={iconBuletPutih} alt="" />
+                  <p>Mudah Digunakan</p>
+                </div>
+                <div className="d-flex align-items-center benefits-list">
+                  <img src={iconBuletPutih} alt="" />
+                  <p>Melindungi Tepi Meja, Dll</p>
+                </div>
               </div>
               <div className="pemesanan">
                 <h6 className="text-center">Pemesanan</h6>

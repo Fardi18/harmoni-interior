@@ -20,8 +20,8 @@ const ProdukPage = () => {
               <div class="card-body">
                 <h5 class="card-title">Plafon PVC</h5>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Quibusdam, cum!
+                Plafon dibuat dari bahan PVC berkualitas tinggi, tahan air, anti rayap, tidak merambat api,
+                mudah dibersihkan dan gampang dalam pemasangan dan perawatannya.
                 </p>
                 <Link to="/produk/plafonpvc" class="card-link">
                   Lihat Produk
@@ -34,10 +34,10 @@ const ProdukPage = () => {
               <div class="card-body">
                 <h5 class="card-title">WPC</h5>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
-                  veniam.
+                Wpc dibuat dari bahan berkualitas tinggi, tahan air, anti rayap, tidak merambat api, 
+                mudah dibersihkan dan gampang dalam pemasangan dan perawatannya.
                 </p>
-                <Link href="#" class="card-link">
+                <Link to="/produk/plafonWPC" class="card-link">
                   Lihat Produk
                 </Link>
               </div>
@@ -46,12 +46,12 @@ const ProdukPage = () => {
           <div class="col">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Lis Plafon</h5>
+                <h5 class="card-title">List Plafon</h5>
                 <p class="card-text">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Ipsa, iusto?
+                  List Plafon dibuat dari bahan berkualitas tinggi, tahan air, anti rayap, tidak merambat api,
+                  mudah dibersihkan dan gampang dalam pemasangan dan perawatannya.
                 </p>
-                <Link href="#" class="card-link">
+                <Link to="/produk/ListPlafon" class="card-link">
                   Lihat Produk
                 </Link>
               </div>
@@ -62,10 +62,10 @@ const ProdukPage = () => {
               <div class="card-body">
                 <h5 class="card-title">Lantai Vinyl</h5>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Cumque, error!
+                Lantai Vinyl dibuat dari bahan berkualitas tinggi, tahan air, anti rayap, tidak merambat api,
+                mudah dibersihkan dan gampang dalam pemasangan dan perawatannya.
                 </p>
-                <Link href="#" class="card-link">
+                <Link to="/produk/LantaiVinyl" class="card-link">
                   Lihat Produk
                 </Link>
               </div>
@@ -76,10 +76,10 @@ const ProdukPage = () => {
               <div class="card-body">
                 <h5 class="card-title">Marmer PVC</h5>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Recusandae, dolor?
+                Marmer PVC terbuat dari bahan berkualitas tinggi, tahan air, anti rayap, tidak merambat api,
+                mudah dibersihkan dan gampang dalam pemasangan dan perawatannya.
                 </p>
-                <Link href="#" class="card-link">
+                <Link to="/produk/MarmerPVC" class="card-link">
                   Lihat Produk
                 </Link>
               </div>
@@ -90,10 +90,10 @@ const ProdukPage = () => {
               <div class="card-body">
                 <h5 class="card-title">Wallfoam</h5>
                 <p class="card-text">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Inventore, itaque.
+                Wallfoam dibuat dari bahan berkualitas tinggi, tahan air, anti rayap, tidak merambat api,
+                mudah dibersihkan dan gampang dalam pemasangan dan perawatannya.
                 </p>
-                <Link href="#" class="card-link">
+                <Link to="/produk/Wallfoam" class="card-link">
                   Lihat Produk
                 </Link>
               </div>
@@ -104,10 +104,24 @@ const ProdukPage = () => {
               <div class="card-body">
                 <h5 class="card-title">Wallpaper</h5>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Cupiditate, doloribus?
+                Wallpaper dibuat dari bahan berkualitas tinggi, tahan air, anti rayap, tidak merambat api,
+                mudah dibersihkan dan gampang dalam pemasangan dan perawatannya.
                 </p>
-                <Link href="#" class="card-link">
+                <Link to="/produk/Wallpaper" class="card-link">
+                  Lihat Produk
+                </Link>
+              </div>
+            </div>
+            </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Edging</h5>
+                <p class="card-text">
+                  Edging dibuat dari bahan berkualitas tinggi, tahan air, anti rayap, tidak merambat api,
+                  mudah dibersihkan dan gampang dalam pemasangan dan perawatannya.
+                </p>
+                <Link to="/produk/Edging" class="card-link">
                   Lihat Produk
                 </Link>
               </div>

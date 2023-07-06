@@ -44,7 +44,7 @@ nav .container-fluid {
 /* HERO */
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("../assets/hero.png");
+    url("../assets/harmoni.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -85,7 +85,7 @@ nav .container-fluid {
 /* INTRO */
 .intro {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("../assets/hero.png");
+    url("../assets/daftar.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;

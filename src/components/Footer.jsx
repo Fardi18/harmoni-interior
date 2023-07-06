@@ -46,7 +46,7 @@ const Footer = () => {
               Marketing 4
             </Link>
             <Link href="#" className="text-white-50 mt-2">
-              fardi@gmail.com
+             harmoniinterior.id@gmail.com
             </Link>
           </div>
           <div className="col col-lg-3 d-flex flex-column mb-lg-0 mb-4">
@@ -55,7 +55,7 @@ const Footer = () => {
               Jl. Raya Serang Km.13,8 Kawasan Industri Tristate Cikupa Tangerang
               Banten
             </p>
-            <h5 className="fw-bold text-white mb-5 pt-4">Jam Operasional</h5>
+            <h5 className="fw-bold text-white mb-3 pt-4">Jam Operasional</h5>
             <p className="text-white-50 mt-2">
               Senin - Sabtu, 08.00 - 17.00 WIB
             </p>
