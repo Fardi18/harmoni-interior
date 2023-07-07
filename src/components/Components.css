@@ -23,7 +23,7 @@ nav .container-fluid {
   padding: 0 50px;
 }
 .nav-bg {
-  background-color: rgba(191, 158, 109, 0.8);
+  background-color: rgba(191, 158, 109, 1);
   transition: 0.5s;
 }
 
