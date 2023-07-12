@@ -19,17 +19,16 @@ const PlafonWPCPage = () => {
   return (
     <>
       <Navbar />
-      <Intro heading={"Plafon WPC"} />
+      <Intro heading={"WPC"} />
       <div className="container description">
         <div className="row description-product">
           <div className="col col-lg-8">
-            <h2>Plafon Harmoni Interior</h2>
+            <h2>WPC Harmoni Interior</h2>
             <p>
-              Plafon WPC memiliki banyak sekali keunggulan seperti tahan api,
-              dapat meredam panas, anti rayap dan anti bocor dan yang paling
-              penting adalah harga yang terjangkau dan ekonomis tetapi memiliki
-              kualitas yang baik. Berikut adalah daftar{" "}
-              <b>Plafon WPC Harmoni Interior</b>
+              WPC memiliki banyak sekali keunggulan seperti tahan api, dapat
+              meredam panas, anti rayap dan anti bocor dan yang paling penting
+              adalah harga yang terjangkau dan ekonomis tetapi memiliki kualitas
+              yang baik. Berikut adalah daftar <b>WPC Harmoni Interior</b>
             </p>
           </div>
         </div>
@@ -42,12 +41,12 @@ const PlafonWPCPage = () => {
           <div className="col">
             <p className="text-center">
               Untuk melihat lebih lanjut tentang produk{" "}
-              <strong>Plafon WPC Harmoni Interior</strong> <br />
+              <strong>WPC Harmoni Interior</strong> <br />
               silahkan download file dibawah ini:
             </p>
             <div className="d-flex justify-content-center align-items-center">
               <button onClick={handleDownload} className="btnDwonload">
-                Katalog Plafon WPC
+                Katalog WPC
               </button>
             </div>
           </div>
